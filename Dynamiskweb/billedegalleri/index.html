@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="gal.js" defer></script>
+    <title>Galleri</title>
+  </head>
+
+  <body>
+    <header class="top-header">
+      <a href="" class="logo"> Logo her </a>
+      <nav class="top-nav">
+        <a href="#" class="menu-item">Punkt 1</a>
+        <a href="#" class="menu-item">Punkt 2</a>
+        <a href="#" class="menu-item">Punkt 3</a>
+      </nav>
+    </header>
+    <main class="content wrapper">
+      <h1>Billedegalleri</h1>
+
+      <figure class="gallery">
+        <a
+          href="gallery-img/1.jpg"
+          class="gallery-link"
+          onclick="imgClick(this); return false;"
+        >
+          <img src="gallery-img/1.jpg" alt="" />
+        </a>
+
+        <a
+          href="gallery-img/2.jpg"
+          class="gallery-link"
+          onclick="imgClick(this); return false;"
+        >
+          <img src="gallery-img/2.jpg" alt="" />
+        </a>
+
+        <a
+          href="gallery-img/3.jpg"
+          class="gallery-link"
+          onclick="imgClick(this); return false;"
+        >
+          <img src="gallery-img/3.jpg" alt="" />
+        </a>
+
+        <a
+          href="gallery-img/4.jpg"
+          class="gallery-link"
+          onclick="imgClick(this); return false;"
+        >
+          <img src="gallery-img/4.jpg" alt="" />
+        </a>
+
+        <a
+          href="gallery-img/5.jpg"
+          class="gallery-link"
+          onclick="imgClick(this); return false;"
+        >
+          <img src="gallery-img/5.jpg" alt="" />
+        </a>
+
+        <a
+          href="gallery-img/6.jpg"
+          class="gallery-link"
+          onclick="imgClick(this); return false;"
+        >
+          <img src="gallery-img/6.jpg" alt="" />
+        </a>
+      </figure>
+    </main>
+
+    <footer class="site-footer">
+      <section>
+        <h2>Footer section 1</h2>
+      </section>
+      <section>
+        <h2>Footer section 2</h2>
+      </section>
+    </footer>
+
+    <!-- Her kommer en container til modal -->
+    <figure class="modal-outer hidden">
+      <img src="" alt="" id="modal-img" class="modal-img" />
+      <button id="close">Luk vindue</button>
+    </figure>
+  </body>
+</html>

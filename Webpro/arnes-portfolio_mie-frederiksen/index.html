@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arnes Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img src="img/logo.png" alt="logo af hjemmeside" />
+      <form action="siden-findes-ikke.html">
+        <input id="search-input" type="search" placeholder="Søg..." />
+        <img id="search-picture" src="img/search.png" alt="search button" />
+      </form>
+    </header>
+
+    <nav>
+      <label class="mobile-nav" for="burger-checkbox"
+        ><img src="img/burger-icon.png" alt="burger menu"
+      /></label>
+      <input class="mobile-nav" type="checkbox" id="burger-checkbox" />
+      <ul>
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="fotoalbum.html">Mit Fotoalbum</a></li>
+        <li class="bordered"><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <div class="about-arne">
+      <main>
+        <section>
+          <h1>Velkommen til Arnes portfolio</h1>
+          <p>
+            Hej, jeg hedder Arne Nougatgren og jeg er musikalsk socialpædagog og
+            rytmeterapeut, med en særlig forkærlighed for psykedelisk jazz-funk,
+            -i daglig tale: psyzzunk. Jeg arbejder hårdt på at skabe bevidsthed
+            om de pædagogiske muligheder der kan skabes i det psyzzunkiske rum.
+          </p>
+
+          <p>
+            Det burde være indlysende for enhver, men fakta er at kendskabet til
+            psyzzunkens pædagoiske perspektiver er enormt begrænset, i dagens
+            Danmark, om man så må sige.
+          </p>
+
+          <img src="img/arne.jpg" alt="Billede af Arne" />
+        </section>
+        <aside>
+          <div class="asideTextContentBlock">
+            <h2>Css Flexbox</h2>
+            <p>
+              Denne svedige side er bygget op med flexbox modellen. Så slipper
+              man for at bruge floats/ clear, inline-block, display:table eller
+              andre nederen hacks.
+            </p>
+          </div>
+          <div class="asideTextContentBlock">
+            <h2>Browser Support:</h2>
+            <p>
+              Flexbox modellen er efterhånden rigtig godt understøttet i alle
+              moderne browsere.
+            </p>
+          </div>
+          <div class="asideTextContentBlock">
+            <h2>Hvordan gør man, Arne?</h2>
+            <p>
+              Jo... For at få sine elementer til at tilpasse sig flexbox
+              modellen, skal man altså lige gide give deres umidelbare
+              forældre-element display-proprtien flex.
+            </p>
+            <pre>.flex-container { display-flex; }</pre>
+          </div>
+          <div class="asideTextContentBlock">
+            <h2>Fordel jer lidt, unger</h2>
+            <p>
+              Hvis man li'som vil have alle flex-børnene til at fordele sig over
+              hele bredten, så kan man lige tilføje en justify-content property
+              med værdien space-between
+            </p>
+            <pre>
+.flex-container {
+   display:flex;
+   justify-content: space-between;
+  }
+            </pre>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <footer>
+      <div class="block portfolioblock">
+        <h3>Arne's Portfolio</h3>
+        <a href="https://goo.gl/maps/Gvy1eNnriBmWVfEt6"
+          ><p>Paradisæblevej 13</p>
+          <p>1313 Andeby</p>
+        </a>
+      </div>
+      <div class="block contactblock">
+        <h3>Get in touch</h3>
+        <a href="kontakt.html">
+          <p>Kontakt</p>
+        </a>
+        <a href="https://www.facebook.com/arne.nougatgren.73">
+          <p>Facebook</p>
+        </a>
+      </div>
+      <div class="block policyblock">
+        <h3>Privatlivspolitik</h3>
+        <a href="https://denmark.dk/cookie-policy">
+          <p>Småkagepolitik</p>
+        </a>
+        <a
+          href="https://persondatakonsulenterne.dk/blog-om-gdpr/gdpr-krav-og-regler-faa-styr-paa-reglerne-her/"
+        >
+          <p>GDPR, li'som</p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

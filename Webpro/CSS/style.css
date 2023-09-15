@@ -1,0 +1,19 @@
+body {
+  background-color: yellow;
+}
+
+h1 {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: darkolivegreen;
+  text-align: right;
+}
+
+a {
+  color: deeppink;
+  text-decoration: none;
+}

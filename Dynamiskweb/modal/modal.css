@@ -1,0 +1,24 @@
+.modal-data {
+  display: none;
+}
+
+.modal-outer {
+  position: fixed;
+  /* display: flex; */
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.modal-inner {
+    background: white;
+    max-width: 60%;
+    max-height: 60%;
+    overflow: auto;
+    padding: 5%;
+    box-shadow: 10px 10px 10px #888;
+}

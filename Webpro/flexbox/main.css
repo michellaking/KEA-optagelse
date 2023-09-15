@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: space-around;
+}
+
+div {
+  width: 3em;
+  height: 3em;
+}
+
+.red-box {
+  background-color: red;
+}
+
+.green-box {
+  background-color: green;
+}
+
+.blue-box {
+  background-color: blue;
+}
